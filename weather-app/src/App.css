@@ -1,0 +1,85 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* App Container */
+.App {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  color: white; /* Text color white for better contrast */
+}
+
+/* Heading */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: white; /* White text for heading */
+}
+
+/* Search Section */
+.search {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 70%;
+  margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #ff6f61; /* Coral color for button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff3b2f; /* Darker shade on hover */
+}
+
+/* Error Message */
+.error {
+  color: #ffcc00; /* Yellow color for error message */
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Weather Info Section */
+.weather-info {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white */
+  backdrop-filter: blur(10px); /* Blur effect for glassmorphism */
+}
+
+.weather-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.weather-info p {
+  font-size: 1rem;
+  margin: 5px 0;
+  color: #e0e0e0; /* Light gray for text */
+}
